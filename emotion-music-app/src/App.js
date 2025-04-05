@@ -3,10 +3,7 @@ import Webcamcapture from "./components/Webcamcapture";
 
 function App() {
   return (
-    <div className="min-h-screen bg-white py-6">
-      <h1 className="text-4xl font-bold text-center text-blue-700">
-        Emotion-Based Music Recommender 🎧
-      </h1>
+    <div className="relative h-auto w-full overflow-y-auto bg-gradient-to-br from-gray-900 via-black to-gray-800">
       <Webcamcapture />
     </div>
   );
